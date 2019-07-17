@@ -32,6 +32,7 @@ body{
   position: absolute;
   left:50%;
   top:40%;
+  text-align: center;
   transform: translate(-50% ,-50%);
 }
 .heading-primary{
@@ -39,6 +40,7 @@ body{
   text-align: center;
   text-transform: uppercase;
   backface-visibility: hidden;
+  margin-bottom: 20px;
   }
   .heading-primary-main{
     display:block;
@@ -86,3 +88,29 @@ body{
    }
    
  }
+ .btn{
+   text-decoration: none;
+   color:#777;
+   border:1px solid #fff;
+   border-radius: 90px;
+   padding:14px 20px;
+   display:inline-block;
+   background: #fff;
+   letter-spacing: 2px;
+   font-weight: 400;
+   text-transform: uppercase;
+   animation: moveInTop 2s ease-out;
+ }
+
+ @keyframes moveInTop{
+   0%{
+     opacity:0;
+     transform: translateY(-40px)
+   }
+   100%{
+     opacity:1;
+     transform:translate(0)
+     
+   }
+ }
+ 
