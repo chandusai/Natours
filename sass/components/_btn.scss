@@ -1,0 +1,14 @@
+.btn{
+    text-decoration: none;
+    color:$color-grey-dark;
+    border:1px solid $color-white;
+    border-radius: 9rem;
+    padding:1.4rem 2rem;
+    font-size: 1.6rem;
+    display:inline-block;
+    background: $color-white;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    animation: moveInTop 2s ease-out;
+  }
