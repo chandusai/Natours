@@ -1,10 +1,11 @@
 .feature-box{
    background-color: rgba($color-white,.8);
    font-size:1.5rem;
+   border:.4rem solid $color-primary;
    text-align: center;
-   border-radius:5px;
    box-shadow:0 1.5rem 4rem rgba($color-black,.15);
    transition: transform .2s;
+   
 
      &__image{
      max-width: 100%;
