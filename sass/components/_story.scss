@@ -1,14 +1,2 @@
-.story{
-    width:100%;
-    background:$color-white;
-    padding:2rem;
-    box-shadow: 0 3rem 6rem rgba($color-black,.1);
-    font-size:$default-font-size;
-    border-left:3px solid tomato;
-    transform: skewX(-12deg); 
-        
-    &> *{
-        transform:skewX(12deg);
-    }
-     }
+
    
