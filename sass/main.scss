@@ -11,9 +11,12 @@
 @import "components/composition";
 @import "components/bg-video";
 @import "components/features";
-@import "components/story";
+@import "components/contact";
 @import "layout/header";
 @import "layout/grid";
+@import "vendors/fontawesome/scss/fontawesome";
+@import "vendors/fontawesome/scss/solid";
+@import "vendors/fontawesome/scss/brands";
 
 @import "pages/home";
 

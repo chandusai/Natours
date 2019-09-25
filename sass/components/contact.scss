@@ -1,0 +1,67 @@
+
+.address-form{
+    width:50%;
+    height:50rem;
+    padding :6rem 8rem;  
+    background:linear-gradient(to right bottom, rgba($color-black, 0.8), rgba($color-grey-dark, 0.8)),url(../../images/nat-6.jpg);
+    float: left;
+
+    &__text{
+        color:$color-white;
+        padding:1.5rem;
+        font-size: 1.7rem;
+        font-weight:400;
+
+        a{
+            color:$color-white;
+            text-decoration: none;
+        }
+    }
+    &__icon >i{
+        color:$color-primary;
+        font-size:2.2rem;
+        margin-right: 1.5rem;
+    }
+   
+}
+.contact-form{
+    float:left;
+    width:50%;
+    height:50rem;
+    padding: 8rem 8rem;
+    background:$color-grey-light;
+input[type=text], textarea {
+    width: 100%;
+    font-family: inherit;
+    padding: 1.2rem;
+    margin-top: .6rem; 
+    margin-bottom: 1.6rem;
+    border: none;  
+    
+    &:focus{
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+        border-bottom: .2rem solid $color-primary;
+    }
+}
+
+  
+  label{
+      color:$color-primary;
+      font-size: 1.6rem;
+  }
+  
+  input[type=submit] {
+    background-color: $color-primary;
+    color: white;
+    padding: 1.2rem 2rem;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+  }
+}
+  
+  
+  
+ 
+  
