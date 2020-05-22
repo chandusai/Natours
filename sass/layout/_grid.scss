@@ -2,15 +2,33 @@
      max-width: $grid-width;
      margin:0px auto;
      &:not(:last-child){
-      margin-bottom: $gutter-vertical
+      margin-bottom: $gutter-vertical;
+      @include respond(tablet-potrait){
+        margin-bottom: $gutter-vertical-small;
+       }
      }
+     @include respond(tablet-potrait){
+        max-width:50rem;
+       }
+   
+     @include clearfix;
+
      [class^='col']{
         float:left;
+          
         &:not(:last-child){
             margin-right:$gutter-horizantal;
+            @include respond(tablet-potrait){
+                margin-right: 0;
+                margin-bottom: $gutter-vertical-small;
+
+               }
            }
+           @include respond(tablet-potrait){
+            width: 100% !important;
+           }
+           
      }
-     @include clearfix;
      .col-1-of-2{
         width: calc((100% - #{$gutter-horizantal}) / 2 );
         }
