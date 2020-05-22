@@ -5,9 +5,30 @@
   padding:0;
   box-sizing:inherit;
 }
-html{
-  font-size:62.5%;
-}
+ html{
+  font-size:62.5%; }// 1rem=16px; base= 10px;  10/16*100=62.5%;
+        @include respond(tablet-landscape){
+        html{
+         font-size:56.25%; // 1rem=9px;9/16
+        }
+      }
+      @include respond(tablet-potrait){
+        html{
+        font-size:40.6%; //1rem=7px;6.5/16
+      }
+    }
+    @include respond( big-desktop){
+      html{
+       font-size:75%; //1rem=12px;12/16
+     }
+   
+  }
+  
 body{
    box-sizing:border-box;
+    padding: 2em;
+     @include respond(tablet-potrait){
+        padding: 0px ;
+  }
+
 }
