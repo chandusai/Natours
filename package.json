@@ -18,6 +18,6 @@
   "homepage": "https://github.com/chandusai/Natours#readme",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.10.2",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   }
 }
